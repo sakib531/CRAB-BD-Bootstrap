@@ -1,0 +1,50 @@
+.logo-size{
+    max-width: 108px;
+    max-height: 108px;
+}
+
+.footer-email-border{
+    border-radius: 50px!important;
+}
+
+.footer-email-button-border,
+.header-last-link{
+    border-radius: 50px!important;
+    border: none!important;
+    background: #537A78!important;
+    color: white;
+}
+
+.footer-email-button-border,
+.header-font-size li a{
+    font-size: 17px;
+}
+
+.footer-email-button-border,
+.header-button-text{
+    font-weight: 646;
+}
+
+.header-hover li{
+    border-bottom: 4px solid transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.header-hover li:hover {
+    border-bottom: 4px solid #EAAC53;
+}
+
+.header-hover li:last-child{
+    border: none;
+}
+
+.footer-email-button-border:hover,
+.header-last-link:hover{
+    color: white!important;
+    background: #214D4B!important;
+}
+
+.footer-bg{
+    background: #F3F2F0;
+}
