@@ -89,26 +89,20 @@
 }
 
 
-/* Home
-Messages
--President Message
--Secretary Message
-About Us
--At a glance
--Constitution
--our papers
+@media (max-width: 530px){
 
-Committees
--Executive Committee
--Election Committee
-
-Former Pre. & GS
-
-Members
-Gallery
--Photo Gallery
--Video Gallery
-Notice
-News & Event
-Auditorium
-Contact us */
+    .sorting_1 {
+        font-size: 6px;
+        width: 7px!important;
+    }
+    
+    td {
+        font-size: 6px;
+        width: 7px!important;
+    }
+    
+    span.dt-column-title {
+        font-size: 6px;
+        width: 7px!important;
+    }
+}
