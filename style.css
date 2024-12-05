@@ -70,6 +70,25 @@
   text-decoration: none !important;
 }
 
+.main-container-width{
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+
+    .res-display{
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+
+    .res-display{
+        display: block;
+    }
+}
+
+
 /* Home
 Messages
 -President Message
