@@ -144,6 +144,31 @@
   color: #eaac53;
 }
 
+.bread-crumb-bg{
+  background: #214d4b;
+}
+
+.bread-crumb-nav{
+  
+}
+
+.bread-crumb-nav-link{
+  text-align: center;
+  bottom: -35px;
+  background: #B69149;
+  z-index: 1;
+  border-radius: 50px;
+}
+
+.bread-crumb-nav-link li {
+  list-style: none;
+}
+
+.bread-crumb-nav-link li a{
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 1200px) {
   .res-display {
     display: none;
@@ -167,6 +192,9 @@
   }
   .icon-md-position {
     text-align: center;
+  }
+  .bread-crumb-nav-link li a h5{
+    font-size: 15px;
   }
 }
 
