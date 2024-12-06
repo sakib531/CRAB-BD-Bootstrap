@@ -146,7 +146,9 @@ border-radius: 10px;
       text-align: center;
       justify-content: center;
     }
-
+    .icon-md-position{
+      text-align: center;
+    }
     
 }
 
