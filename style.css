@@ -211,3 +211,15 @@
     font-size: 6px;
   }
 } */
+
+
+.margin-right-10px {
+  margin-right: 10px;
+}
+.margin-right-10px:last-child {
+  margin-right: 0;
+}
+
+.bread-crumb-bg{
+  background-image: url(images/breadcrumb-bg-image.jpg);
+}
