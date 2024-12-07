@@ -179,43 +179,6 @@
   color: black;
 }
 
-@media (max-width: 992px) {
-  .res-display {
-    display: block;
-  }
-}
-
-@media (max-width: 767px) {
-  .border-term {
-    border-right: none !important;
-  }
-  .footer-mobile-link-position {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
-  .icon-md-position {
-    text-align: center;
-  }
-  .bread-crumb-nav-link li a h5{
-    font-size: 15px;
-  }
-}
-
-/* @media (max-width: 530px) {
-  .sorting_1 {
-    font-size: 6px;
-  }
-
-  td {
-    font-size: 6px;
-  }
-
-  span.dt-column-title {
-    font-size: 6px;
-  }
-} */
-
 .transition {
   transition: all .3s ease;
 }
@@ -266,3 +229,40 @@
 .x-committee-height {
   height: 600px;
 }
+
+@media (max-width: 992px) {
+  .res-display {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .border-term {
+    border-right: none !important;
+  }
+  .footer-mobile-link-position {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .icon-md-position {
+    text-align: center;
+  }
+  .bread-crumb-nav-link li a h5{
+    font-size: 15px;
+  }
+}
+
+/* @media (max-width: 530px) {
+  .sorting_1 {
+    font-size: 6px;
+  }
+
+  td {
+    font-size: 6px;
+  }
+
+  span.dt-column-title {
+    font-size: 6px;
+  }
+} */
